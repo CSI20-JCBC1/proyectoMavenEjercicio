@@ -103,8 +103,6 @@ public class App
 			
 			//Llama al metodo que ejecuta el create
 			System.out.println("[INFORMACIÓN-controladorPortgreSQL-main] Llamada createTable");
-			// Pedimos un id al usuario para borrar
-		    
 			consultasPostgre.createTable("CREATE TABLE IF NOT EXISTS \"proyectoEclipse\".\"profesores\" (id_profesor CHARACTER VARYING NOT NULL)", conexionGenerada);
 			
 			System.out.println();
